@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Privacy Policy for Parcel-PT, a Shopify app for CTT shipping integration." />
+  <title>Privacy Policy — Parcel-PT</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --muted: #555;
+      --border: #e5e5e5;
+      --accent: #005bd3;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --text: #f2f2f2;
+        --muted: #aaa;
+        --border: #333;
+        --accent: #6ea8fe;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 0.5rem;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 2rem 0 0.75rem;
+    }
+    p, li { margin: 0.5rem 0; }
+    ul { padding-left: 1.25rem; }
+    a { color: var(--accent); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.6rem 0.75rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: color-mix(in srgb, var(--border) 40%, transparent); }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta">
+      <strong>Parcel-PT</strong> — Shopify shipping app for CTT logistics<br />
+      Effective date: <time datetime="2026-08-26">26 August 2026</time><br />
+      Last updated: <time datetime="2026-08-26">26 August 2026</time>
+    </p>
+
+    <p>
+      This Privacy Policy describes how <strong>CondoLink</strong> ("we", "us", or "our")
+      collects, uses, stores, and shares information when you install or use
+      <strong>Parcel-PT</strong> (the "App"), a Shopify application that helps merchants
+      create CTT shipping labels, calculate checkout rates, and manage fulfillments.
+    </p>
+    <p>
+      By installing or using the App, you agree to this Privacy Policy. If you do not agree,
+      please uninstall the App.
+    </p>
+
+    <h2>1. Who this policy applies to</h2>
+    <ul>
+      <li><strong>Merchants</strong> — Shopify store owners or staff who install and use the App in Shopify Admin.</li>
+      <li><strong>End customers</strong> — people who buy from a merchant's store. Parcel-PT processes limited customer data on behalf of the merchant to provide shipping services.</li>
+    </ul>
+    <p>
+      For end-customer personal data, the merchant is typically the data controller and CondoLink
+      acts as a data processor, except where we determine purposes and means of processing
+      (for example, billing and platform security).
+    </p>
+
+    <h2>2. Information we collect</h2>
+
+    <h3>2.1 Merchant and shop information</h3>
+    <ul>
+      <li>Shop domain, shop name, and installation timestamps</li>
+      <li>Shopify OAuth session data, including access tokens required to operate the App</li>
+      <li>Shopify staff profile data available through OAuth (such as name, email, locale, and account role)</li>
+      <li>App settings you configure (shipping origin address, phone numbers, default shipping methods, billing plan, and carrier service preferences)</li>
+    </ul>
+
+    <h3>2.2 Order and shipping information</h3>
+    <p>To create shipments, labels, and tracking updates, we process order-related data from Shopify, including:</p>
+    <ul>
+      <li>Shopify order IDs, order names, and fulfillment identifiers</li>
+      <li>Shipping addresses (recipient name, street, city, postal code, country, phone)</li>
+      <li>Customer email addresses associated with orders, when provided by Shopify</li>
+      <li>Package weight, carrier service, tracking numbers, and shipment status</li>
+      <li>Delivery instructions submitted at checkout through the App's checkout extension (stored as cart/order metafields)</li>
+      <li>Shipping rate request data at checkout (destination country/postal code and cart weight)</li>
+    </ul>
+
+    <h3>2.3 Billing and wallet information</h3>
+    <ul>
+      <li>Selected subscription or usage-based billing plan</li>
+      <li>Label usage records and postage credit top-ups processed through Shopify Billing</li>
+      <li>Internal wallet ledger entries (amounts, references, and timestamps)</li>
+    </ul>
+    <p>Payment card details are handled by Shopify; we do not receive or store full payment card numbers.</p>
+
+    <h3>2.4 Technical and operational data</h3>
+    <ul>
+      <li>Webhook payloads from Shopify and our logistics integration partners</li>
+      <li>Application logs, error messages, and idempotency records</li>
+      <li>IP addresses and request metadata in server logs (for security and troubleshooting)</li>
+    </ul>
+
+    <h2>3. How we use information</h2>
+    <p>We use collected information to:</p>
+    <ul>
+      <li>Provide, operate, and maintain the App</li>
+      <li>Authenticate your shop and communicate with Shopify on your behalf</li>
+      <li>Create shipping labels, transmit shipment data to carriers, and update fulfillments and tracking in Shopify</li>
+      <li>Calculate and return CTT shipping rates at checkout</li>
+      <li>Process billing, usage charges, and postage credits</li>
+      <li>Respond to merchant support requests and comply with legal obligations</li>
+      <li>Improve reliability, security, and performance of the App</li>
+    </ul>
+    <p>We do not sell personal information.</p>
+
+    <h2>4. Legal bases (EEA/UK merchants)</h2>
+    <p>Where the GDPR or UK GDPR applies, we rely on:</p>
+    <ul>
+      <li><strong>Contract</strong> — to provide the App and shipping integration you request</li>
+      <li><strong>Legitimate interests</strong> — to secure the service, prevent abuse, and improve operations</li>
+      <li><strong>Legal obligation</strong> — where required by applicable law</li>
+      <li><strong>Consent</strong> — where required for optional features or communications</li>
+    </ul>
+
+    <h2>5. How we share information</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Recipient</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Shopify</strong></td>
+          <td>App platform, OAuth, Admin API, webhooks, billing, and checkout/carrier service integrations</td>
+        </tr>
+        <tr>
+          <td><strong>CondoLink logistics services</strong></td>
+          <td>Backend shipment creation, tracking, and CTT API orchestration on our infrastructure</td>
+        </tr>
+        <tr>
+          <td><strong>CTT (Correios de Portugal)</strong></td>
+          <td>Shipping label creation, parcel handling, and delivery services</td>
+        </tr>
+        <tr>
+          <td><strong>Google Cloud</strong></td>
+          <td>Hosting (Cloud Run), database (Cloud SQL), and related infrastructure in the EU where configured</td>
+        </tr>
+        <tr>
+          <td><strong>Professional advisers and authorities</strong></td>
+          <td>When required for legal compliance, dispute resolution, or protection of rights</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      We share only the data reasonably necessary for these purposes. Sub-processors are bound
+      by contractual data protection obligations where applicable.
+    </p>
+
+    <h2>6. International transfers</h2>
+    <p>
+      Data may be processed in the European Economic Area and, where service providers operate
+      elsewhere, we implement appropriate safeguards (such as Standard Contractual Clauses)
+      as required by applicable law.
+    </p>
+
+    <h2>7. Data retention</h2>
+    <ul>
+      <li><strong>Active shops:</strong> we retain data while the App is installed and as needed to provide the service.</li>
+      <li><strong>After uninstall:</strong> Shopify sends a <code>shop/redact</code> compliance webhook; we delete shop records, sessions, and associated app data within the timelines required by Shopify's Partner Program.</li>
+      <li><strong>Customer redaction:</strong> when Shopify sends <code>customers/redact</code>, we remove or anonymize linked shipment identifiers and customer-related fields we store.</li>
+      <li><strong>Logs and backups:</strong> may be retained for a limited period for security and disaster recovery, then deleted or anonymized.</li>
+    </ul>
+
+    <h2>8. Your rights and Shopify compliance webhooks</h2>
+    <p>
+      The App implements Shopify mandatory compliance webhooks:
+      <code>customers/data_request</code>, <code>customers/redact</code>, and <code>shop/redact</code>.
+    </p>
+    <p>Depending on your location, you may have rights to access, rectify, erase, restrict, or port personal data, and to object to certain processing. End customers should contact the merchant first; merchants may contact us to assist with requests relating to data processed through the App.</p>
+
+    <h2>9. Security</h2>
+    <p>
+      We use administrative, technical, and organizational measures appropriate to the risk,
+      including encrypted transport (HTTPS), access controls, secret management, and least-privilege
+      service credentials. CTT carrier credentials are not exposed to browsers or merchant clients.
+    </p>
+
+    <h2>10. Children</h2>
+    <p>The App is a business tool for merchants and is not directed at children under 16.</p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. We will revise the "Last updated" date
+      at the top of this page. Material changes may also be communicated through the App or Shopify
+      App Store listing where appropriate.
+    </p>
+
+    <h2>12. Contact us</h2>
+    <p>
+      Data controller: <strong>CondoLink</strong><br />
+      Email: <a href="mailto:privacy@condolink.pt">privacy@condolink.pt</a><br />
+      App: <a href="https://apps.shopify.com/" rel="noopener noreferrer">Parcel-PT on Shopify</a>
+    </p>
+
+    <footer>
+      <p>© 2026 CondoLink. All rights reserved.</p>
+      
+    </footer>
+  </main>
+</body>
+</html>

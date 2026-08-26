@@ -20,7 +20,7 @@ The site root also redirects to the same page:
 2. Commit and push to `main`
 3. GitHub Pages redeploys automatically (usually within a minute)
 
-Publishing source: **Settings → Pages → Deploy from branch `main` / root**.
+Publishing source: **Settings → Pages → Build and deployment → GitHub Actions** (`deploy-pages.yml` on `main`).
 
 ## Local preview
 
